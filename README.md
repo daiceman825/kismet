@@ -3,9 +3,16 @@ Collection of Scripts to be used with Kismet
 
 ## Trilateration.py 
 
-This python script can provide a rough location of a Wi-Fi Access Point by trilaterating the signal using kismet historical goepoints and the rssi values associated with them. 
+This python script can provide a rough location of a Wi-Fi Access Point by trilaterating the signal using kismet historical geopoints and the rssi values associated with them. 
 
-usage: 
+### Installation
+```
+git clone https://github.com/daiceman825/kismet.git
+cd kismet
+pip3 install -r requirements.txt
+```
+
+### Usage: 
 ```
 python3 trilaterate.py -f /path/to/file.kismet -t AA:BB:CC:DD:EE:FF
 ```
