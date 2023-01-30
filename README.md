@@ -12,3 +12,4 @@ python3 trilateration.py -f /path/to/file.kismet -t AA:BB:CC:DD:EE:FF
 
 The output from this script is a folium map that displays all historical geopoints as red circles, the radius of which is determined by the rssi value measured at that point. It also displays the (roughly) calculated location as a blue circle. See the example below:
 
+![example map output](trilateration-example.png)
