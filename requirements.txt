@@ -1,0 +1,8 @@
+kismetdb
+json
+numpy
+scipy.optimize
+folium
+sys
+getopt
+math
