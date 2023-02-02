@@ -1,7 +1,4 @@
 kismetdb
 numpy
-scipy.optimize
+scipy
 folium
-sys
-getopt
-math
