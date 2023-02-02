@@ -1,5 +1,4 @@
 kismetdb
-json
 numpy
 scipy.optimize
 folium
