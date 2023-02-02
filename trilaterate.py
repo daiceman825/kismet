@@ -79,7 +79,7 @@ def main(argv):
 	target_SSID = ''
 	search_all = True
 	try:
-		opts, args = getopt.getopt(argv,"hi:t:",["ifile=","target="])
+		opts, args = getopt.getopt(argv,"hf:t:",["file=","target="])
 	except getopt.GetoptError:
 		print("You must supply the following arguments:")
 		print("-f : kismet file to parse")
@@ -90,9 +90,9 @@ def main(argv):
 		if opt == '-h':
 			print('trilaterate.py -f infile.kismet -t AA:BB:CC:DD:EE:FF')
 			sys.exit(0)
-		elif opt in ("-f", "--file"):
+		elif opt in '-f':
 			devices = kismetdb.Devices(arg)
-		elif opt in ("-t","--target"):
+		elif opt in '-t':
 			target_SSID = arg
 			search_all = False
 	
